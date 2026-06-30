@@ -4,7 +4,7 @@
 
 Este proyecto aborda el problema de **Genetic Engineering Attribution**, cuyo objetivo es identificar el laboratorio responsable del diseño de un plásmido a partir de su secuencia de ADN y de un conjunto de características biológicas asociadas.
 
-Para su desarrollo se utilizaron los datos proporcionados por la competencia **Genetic Engineering Attribution** de DrivenData. El trabajo se planteó en dos etapas: inicialmente se implementó el modelo base recomendado por la competencia y, posteriormente, se desarrolló una solución basada en redes neuronales convolucionales con el fin de aprovechar directamente la información contenida en las secuencias de ADN.
+Para su desarrollo se utilizaron los datos proporcionados por la competencia **Genetic Engineering Attribution** de [DrivenData](www.drivendata.org). El trabajo se planteó en dos etapas: inicialmente se implementó el modelo base recomendado por la competencia y, posteriormente, se desarrolló una solución basada en redes neuronales convolucionales con el fin de aprovechar directamente la información contenida en las secuencias de ADN.
 
 ---
 
@@ -141,7 +141,7 @@ Durante el entrenamiento se utilizaron:
 * Métrica de **Accuracy**.
 * Métrica **Top-10 Accuracy**.
 
-La métrica Top-10 Accuracy fue seleccionada porque corresponde al criterio oficial de evaluación de la competencia, donde una predicción se considera correcta si el laboratorio verdadero aparece entre las diez predicciones con mayor probabilidad.
+La métrica Top-10 Accuracy fue seleccionada porque corresponde al criterio oficial de evaluación de la competencia, donde una predicción se considera correcta si el laboratorio verdadero aparece entre las diez predicciones con mayor probabilidad. Para mayor información consultar en el [link](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/page/165/#performance-metric).
 
 ---
 
@@ -158,21 +158,8 @@ Las principales decisiones metodológicas del proyecto fueron:
 
 ---
 
-## Trabajo futuro
-
-Como posibles mejoras del proyecto se plantean:
-
-* Ajuste de hiperparámetros.
-* Evaluación de arquitecturas convolucionales más profundas.
-* Implementación de modelos basados en Transformers para secuencias biológicas.
-* Incorporación de técnicas de aumento de datos.
-* Ensambles entre modelos clásicos y redes neuronales.
-* Métodos de interpretabilidad para identificar regiones de la secuencia con mayor influencia en la clasificación.
-
----
-
 ## Referencias
 
-* Competencia **Genetic Engineering Attribution** de DrivenData.
+* Competencia **Genetic Engineering Attribution** de [www.drivendata.org](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/page/164/)
 * Documentación oficial de TensorFlow/Keras.
-* Documentación oficial de Scikit-learn.
+* Chollet, F., Chollet, F. (2021). Deep Learning with Python, Second Edition. Reino Unido: Manning.
