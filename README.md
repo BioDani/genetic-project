@@ -4,7 +4,7 @@
 
 Este proyecto aborda el problema de **Genetic Engineering Attribution**, cuyo objetivo es identificar el laboratorio responsable del diseño de un plásmido a partir de su secuencia de ADN y de un conjunto de características biológicas asociadas.
 
-Para su desarrollo se utilizaron los datos proporcionados por la competencia **Genetic Engineering Attribution** de [DrivenData](www.drivendata.org). El trabajo se planteó en dos etapas: inicialmente se implementó el modelo base recomendado por la competencia y, posteriormente, se desarrolló una solución basada en redes neuronales convolucionales con el fin de aprovechar directamente la información contenida en las secuencias de ADN.
+Para su desarrollo se utilizaron los datos proporcionados por la competencia **Genetic Engineering Attribution** de [DrivenData](https://www.drivendata.org). El trabajo se planteó en dos etapas: inicialmente se implementó el modelo base recomendado por la competencia y, posteriormente, se desarrolló una solución basada en redes neuronales convolucionales con el fin de aprovechar directamente la información contenida en las secuencias de ADN.
 
 ---
 
@@ -160,6 +160,6 @@ Las principales decisiones metodológicas del proyecto fueron:
 
 ## Referencias
 
-* Competencia **Genetic Engineering Attribution** de [www.drivendata.org](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/page/164/)
+* Competencia **Genetic Engineering Attribution** de [www.drivendata.org](https://www.drivendata.org/competitions/63/genetic-engineering-attribution)
 * Documentación oficial de TensorFlow/Keras.
 * Chollet, F., Chollet, F. (2021). Deep Learning with Python, Second Edition. Reino Unido: Manning.
